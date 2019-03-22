@@ -1,0 +1,31 @@
+<h1 class="header">{{nameOfApp}}</h1>
+
+<!--
+<ul>
+  <li *ngFor="let goal of goals">{{goal}}</li>
+  //let each individual element from goals array be known as a goal, then pass that value//
+</ul>
+-->
+
+<body>
+
+<form (submit)="addGoal(goal.value)">
+  <div>
+    <input type="text" placeholder="Enter Goal" #goal>
+    <label for="Add Goal"> <button (click)="addGoal(goal.value)" class="button"> + </button> </label>
+  </div>
+</form>
+
+</body>
+
+
+<ul>
+  <li *ngFor = "let goal of goals">
+    {{goal}} <button (click)="deleteGoal(goal)" class="button1">X</button>
+  </li>
+</ul>
+
+
+<div class="footer">
+  <p>Goals Completed: {{goalCounter}}</p>
+</div>

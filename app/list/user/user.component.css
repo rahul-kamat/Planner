@@ -1,0 +1,107 @@
+.header {
+  padding: 30px;
+  margin:0;
+  text-align: center;
+  background: white;
+  color: #FFA500;
+  font-size: 75px;
+  font-family: "Courier New", Courier, Monospace;
+}
+
+body {
+    text-align: center;
+}
+
+input[type=text] {
+  width: 70%;
+  padding: 19px 20px;
+  margin: 8px 0;
+  border: 2px solid #FFEDCE;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background-color: #FFEDCE;
+  transition: 1s;
+  outline: none;
+  font-family: "Courier New", Courier, Monospace;
+}
+
+input[type=text]:focus {
+border: 2px solid #FFA500;
+font-size: 26px;
+}
+
+.button {
+  background-color: #FFA500;
+  padding: 13px 20px 16px 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 10px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  background-color: #FFEDCE;
+  padding: 4px 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 10px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: white;
+  color: #FFA500;
+}
+
+.button1:hover {
+  background-color: white;
+  color: #FFA500;
+}
+
+ul {
+  list-style: none;
+  font-family: "Courier New", Courier, Monospace;
+  font-size: 26px;
+  padding: 10px 200px 200px 217px;
+  border-left: 5px solid #FFA500;
+  border-right: 5px solid #FFA500;
+  background-color: none;
+  content: "\2022";
+  font-weight: 600;
+  color: #FFA500;
+
+}
+
+ul li::before {
+  content: "\2022";
+  color: #FFEDCE;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #FFEDCE;
+   color: #FFA500;
+   text-align: center;
+   font-family: "Courier New", Courier, Monospace;
+   font-size: 19px;
+   font-weight: 600;
+}
