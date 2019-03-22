@@ -6,8 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
-  nameOfApp:string;
-  nameOfApp = 'Planner';
+  nameOfApp:string = 'Planner';
 
   goals:any[];
   goalCounter:number = 0;
